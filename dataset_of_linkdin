@@ -1,0 +1,10 @@
+import pandas as pd
+dataset_directory = "C:/LinkedIn_Dataset.pcl" #Change this according to your directory
+dataset = pd.read_pickle(dataset_directory)
+@inproceedings{ayoobi2023looming,
+  title={The Looming Threat of Fake and LLM-generated LinkedIn Profiles: Challenges and Opportunities for Detection and Prevention},
+  author={Ayoobi, Navid and Shahriar, Sadat and Mukherjee, Arjun},
+  booktitle={Proceedings of the 34th ACM Conference on Hypertext and Social Media},
+  pages={1--10},
+  year={2023}
+}
